@@ -6,10 +6,10 @@ export const DATA = [
     name: 'A star is born',
     logo,
     mainImage,
-    year: 2019,
-    limitAge: '12+',
-    rating: '7.89',
-    duration: '1h 56min',
+    year: 2018,
+    limitAge: '18+',
+    rating: '7.4',
+    duration: '2h 16min',
     description:
       'A key theme in "A Star is Born" is how addiction destroys not only the lives of its victims but also the lives of their loved ones. There is a scene where Jackson apologizes to Ally for something he did while he was drunk. He is ashamed and knows he hurt and embarrassed her.',
     photos: [

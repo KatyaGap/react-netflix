@@ -5,8 +5,7 @@ function Profile() {
   return (
     <div className={styles['profile-wrapper']}>
       <div className={styles.notification}>
-        <i className="bx bsx-bell"></i>
-        <span></span>
+        <i className="bx bsx-bell" />
       </div>
       <div className={styles.profile}>
         <div>
@@ -15,7 +14,7 @@ function Profile() {
             alt=""
           />
         </div>
-        <i className="bx bx-caret-down"></i>
+        <i className="bx bx-caret-down" />
       </div>
     </div>
   );

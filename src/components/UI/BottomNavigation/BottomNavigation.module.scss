@@ -6,20 +6,24 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	z-index: 1;
 	>button {
 		opacity: 0.8;
 		transition: border-color .4s ease, opacity 0.4s ease;
-		border-bottom: 2px solid transparent;
+		border-bottom: 4px solid transparent;
 		padding-bottom: 0.5rem;
 		font-size: 20px;
 		text-transform: uppercase;
 		color: white;
+		background-color: transparent;
+		border: none;
+		margin: 0 1rem;
 		&.active{
 			border-color: red;
 			opacity: 1;
 		}
 		&:hover{
-			border-color: rgb(86, 4, 4);
+			border-color: rgb(120, 3, 3);
 			opacity: 1;
 		}
 	}
