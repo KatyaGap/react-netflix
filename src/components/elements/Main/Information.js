@@ -13,7 +13,7 @@ function Information({ movie }) {
 
   return (
     <div className={styles.info}>
-      <img src={movie.logo} alt={movie.name} width="200px" />
+      <img src={movie.logo} alt={movie.name} width="200px" style={{opacitye: 0.7}}/>
       <div className={styles.additional}>
         <span>{movie.year}</span>
         <span>{movie.limitAge}</span>
@@ -25,11 +25,11 @@ function Information({ movie }) {
       <div className={styles.buttons}>
         {/* <Button cb={() => setModulShow(true)}> */}
         <Button cb={() => console.log('video is open')}>
-          <i className="bx bx-play"></i>
+          <i className="bx bx-play" style={{ color: 'red' }}></i>
           <span>Play</span>
         </Button>
         <Button cb={addToFavorites}>
-          <i className="bx bx-play"></i>
+          <i className="bx bx-plus"></i>
           <span>My list</span>
         </Button>
       </div>

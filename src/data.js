@@ -1,23 +1,23 @@
-import avengers from './images/avengers.png';
-import bg from './images/bg.jpg';
+import mainImage from './images/star.jpeg';
+import logo from './images/145782.jpeg';
 
 export const DATA = [
   {
-    name: 'Avengers',
-    logo: avengers,
-    mainImage: bg,
+    name: 'A star is born',
+    logo,
+    mainImage,
     year: 2019,
     limitAge: '12+',
     rating: '7.89',
     duration: '1h 56min',
     description:
-      'Marvels The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.',
+      'A key theme in "A Star is Born" is how addiction destroys not only the lives of its victims but also the lives of their loved ones. There is a scene where Jackson apologizes to Ally for something he did while he was drunk. He is ashamed and knows he hurt and embarrassed her.',
     photos: [
-      'https://d23.com/app/uploads/2019/08/1180w-600h_081319_avengers-endgame-facts-780x440.jpg',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OtuflE7bMKCV2SqoCqFHmb-wFv3E2iIaFdeay2gpFeb-JZ5rDYYT6I3bnONc9OtU6VQ&usqp=CAU',
-      'https://images.indianexpress.com/2019/05/avengers-endgame-chris-hemsworth-1200.jpg',
-      'https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/04/avengers-endgame-1619486515.jpg',
-      'https://www.gamespot.com/a/uploads/screen_kubrick/1582/15828986/3505175-endgame%20head.jpg',
+      'https://i.guim.co.uk/img/media/33b825743b47411c654cc0147bb8938cb73e2650/0_373_6016_3611/master/6016.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2ee61500fdd99cbc67ed971119d6939e',
+      'https://cdn.filmtotaal.nl/images/original/3d9fghw572ju_hero.jpg',
+      'https://cinemagazine.nl/wp-content/uploads/star_is_born_a.jpg',
+      'https://media.pathe.nl/nocropthumb/1600x590/gfx_content/other/api/filmdepot/v1/movie/download/19767_92858_st_sd-high.jpg',
+      'https://www.cinemazed.be/sites/default/files/styles/video_still/public/stills/o/astarisborn-4628.jpg?itok=AuqDGIhY',
     ],
   },
 ];

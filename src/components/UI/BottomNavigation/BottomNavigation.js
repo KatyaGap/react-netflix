@@ -1,4 +1,5 @@
 import styles from './BottomNavigation.module.scss';
+
 const tabs = [
   {
     id: 1,
